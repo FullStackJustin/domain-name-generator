@@ -7,6 +7,7 @@
     <body>
         <div class="d-flex justify-content-center align-content-center">
             <div class="d-block">
+                <p id="domainComponents"></p>
             <button id="generator" onClick="domainUrl();">Click Here For A Domain Name</button>
             <p id="text"></p>
             <script>
@@ -22,8 +23,10 @@
                         noun[Math.floor(Math.random() *noun.length)] +
                         dot[Math.floor(Math.random() *dot.length)];
                         // document.getElementById("text").innerHTML = 
-                        console.log(pronoun + adj + noun + dot);
+                        // console.log(pronoun + adj + noun + dot);
                     }
+                    var comps = document.getElementById("domainComponents");
+                    comps.innerHTML = ['The', 'Alltime', 'Our']
             </script>
             </div>
             </div>
