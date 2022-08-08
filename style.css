@@ -1,4 +1,15 @@
 #textBox{
     border: 3px solid blue;
-    
+    display: flex;
+    justify-content: center;
+}
+
+#generator {
+    display: flex;
+    justify-content: center;
+}
+#text{
+    display: flex;
+    justify-content: center;
+
 }
